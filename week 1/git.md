@@ -9,15 +9,15 @@
 
 ### Fork/clone repo
 Forking a repository is the same as making a copy of that repository where you will make alterations. To do so,
-1. go to the repository you want to contribute (probably in GitHub);
-1.  Click on _Fork_.
+1. go to the repository you want to contribute (probably in GitHub)
+1.  Click on _Fork_
 
 Now you have a copy of the repository under your GitHub account.
 
 Cloning the repository is the same as copying that repository to your machine so you can work on it:
 
-1. In your forked repository page, click on _Code_;
-1. Copy the link in HTTPS;
+1. In your forked repository page, click on _Code_
+1. Copy the link in HTTPS
 2. Go to the terminal in your computer and enter `git clone HTTPS-link`
 
 Now you have a copy of the repository on your machine.
@@ -33,8 +33,8 @@ The upstream repository is the original. The one you forked in the last step. Th
 To check your current remote repositories you can enter `git remote -v` in your terminal.
 
 To add a remote in your terminal,
-1. enter `git remote add upstream upstream-repo-url` if you want to add the remote upstream to your repository;
-1. enter `git remote add origin origin-repo-url` if you want to add the remote origin to your repository.
+1. enter `git remote add upstream upstream-repo-url` if you want to add the remote upstream to your repository
+1. enter `git remote add origin origin-repo-url` if you want to add the remote origin to your repository
 
     > If you have already cloned your forked repository, the origin reference is automatically set during the cloning process.
 
