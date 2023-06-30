@@ -61,7 +61,7 @@ Once in your branch, you can make alterations, save them, and send them to someo
 
 Now someone reviews your PR and approves it to be merged (or asks you to make alterations).
 
-## Use cli to submit PRs
+### Use cli to submit PRs
 You can use a command-line interface tool (a text-based interface used to interact with a computer program or operating system by entering commands through a command prompt or terminal) to help perform the Pull Requests.
 
 GitHub has its [own CLI](https://github.com/cli/cli#installation). After you install it, follow the steps from the previous section. After step 4, you can create your PR using the CLI:
