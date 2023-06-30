@@ -26,7 +26,7 @@ Now you have a copy of the repository on your machine.
 ### Pull upstream master
 When you _pull_ code, you are fetching the latest changes from a certain repository and merging them into your local copy.
 
-We can set the _upstream_ and _origin_ repositories to indicate where we want to get the information from or send the information to.
+You can set the _upstream_ and _origin_ repositories to indicate where you want to get the information from or send the information to.
 
 The upstream repository is the original. The one you forked in the last step. The origin repository is the copy you have under your GitHub account.
 
@@ -41,23 +41,23 @@ To add a remote in your terminal,
 You can now use `git pull upstream master` to indicate that you want to fetch all recent alterations from the master branch of your original repository. Then, you can use `git push origin master` o push the alterations to your forked repository.
 
 ### Create own branches
-Git is a versioning system that we use to track and manage changes to source code during software development. It allows multiple developers to collaborate on a project.
+Git is a versioning system used to track and manage changes to source code during software development. It allows multiple developers to collaborate on a project.
 
-To keep the project organized and maintain a certain order (coding can be pretty chaotic), we can create branches - pointers that represent independent lines of development.
+To keep the project organized and maintain a certain order (coding can be pretty chaotic), you can create branches - pointers that represent independent lines of development.
 
-We use branches to make alterations to the code without affecting the master/main version during our development process. Later, we can merge the changes from this branch and deal with possible conflicts.
+Branches are used to change the code without affecting the master/main version during the development process. Later, conflicts are dealt with and changes are merged.
 
 To create a new branch and move to it, enter `git checkout -b new-branch-name`.
 
-We can also move from one branch to the other using `git checkout branch-name`
+You can also move from one branch to the other using `git checkout branch-name`
 
 Once in your branch, you can make alterations, save them, and send them to someone's copy of the repository or the upstream repository itself.
 
 1. Check the alterations you made with `git status`
-1. Add the files you altered with `git add .` (if you want to add all the files you altered) or `git add path-to-the-file` (if you want to add a specific file)
-1. Commit the changes with a message with `git commit -m "message"`
-1. Push the changes to your repository with `git push origin new-branch-name`
-1. In your hosting platform you will see a banner indicating that you recently pushed a new branch. (GitHub) Click on the _Compare & Pull request" button to start the Pull Request.
+2. Add the files you altered with `git add .` (if you want to add all the files you altered) or `git add path-to-the-file` (if you want to add a specific file)
+3. Commit the changes with a message with `git commit -m "message"`
+4. Push the changes to your repository with `git push origin new-branch-name`
+5. In your hosting platform you will see a banner indicating that you recently pushed a new branch. (GitHub) Click on the _Compare & Pull request" button to start the Pull Request.
 
 Now someone reviews your PR and approves it to be merged (or asks you to make alterations).
 
@@ -68,6 +68,6 @@ GitHub has its [own CLI](https://github.com/cli/cli#installation). After you ins
 
 `gh pr create --title "Your PR title" --body "Additional description if necessary"`
 
-In Liferay, we use GitRay CLI. You can check Step 13 in [this how-to use git for interns](https://liferay.atlassian.net/l/cp/T7rVz4xw) to understand more about it. 
+In Liferay, there is GitRay CLI. You can check Step 13 in [this how-to use git for interns](https://liferay.atlassian.net/l/cp/T7rVz4xw) to understand more about it. 
 
 Well, that is it. Now you are able to use git. Congratulations!
