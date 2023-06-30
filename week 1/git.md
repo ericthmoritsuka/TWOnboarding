@@ -60,7 +60,7 @@ Once in your branch, you can make alterations, save them, and send them to someo
 1. Push the changes to your repository with `git push origin new-branch-name`
 1. In your hosting platform you will see a banner indicating that you recently pushed a new branch. (GitHub) Click on the _Compare & Pull request" button to start the Pull Request.
 
-Now someone will review your PR and approve it to be merged.
+Now someone reviews your PR and approves it to be merged (or asks you to make alterations).
 
 ## Use cli to submit PRs
 You can use a command-line interface tool (a text-based interface used to interact with a computer program or operating system by entering commands through a command prompt or terminal) to help perform the Pull Requests.
