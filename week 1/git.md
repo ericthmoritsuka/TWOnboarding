@@ -68,6 +68,6 @@ GitHub has its [own CLI](https://github.com/cli/cli#installation). After you ins
 
 `gh pr create --title "Your PR title" --body "Additional description if necessary"`
 
-In Liferay, we use GitRay CLI. You can check Step 13 in [this document](https://liferay.atlassian.net/l/cp/T7rVz4xw) to understand more about it. 
+In Liferay, we use GitRay CLI. You can check Step 13 in [this how-to use git for interns](https://liferay.atlassian.net/l/cp/T7rVz4xw) to understand more about it. 
 
 Well, that is it. Now you are able to use git. Congratulations!
