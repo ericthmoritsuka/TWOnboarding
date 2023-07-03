@@ -4,3 +4,9 @@
 
 ## Liferay
 * [Product Team Echo](https://liferay.atlassian.net/wiki/spaces/ENGECHO/overview)
+* [Echo Components](https://airtable.com/shrQ35YwWwHLRvhZ9/tbl66zH9L32CxqoNu)
+
+## Liferay Learn
+* [Site Building](https://learn.liferay.com/w/dxp/site-building)
+* [Content Authoring and Management](https://learn.liferay.com/w/dxp/content-authoring-and-management)
+* [Building Applications](https://learn.liferay.com/w/dxp/building-applications)
