@@ -54,7 +54,7 @@ Assess gaps in knowledge. Identify ad-hoc lectures by knowledgeable members of t
 | Work on schedule for weekly meeting | &#10006; |
 | Schedule monthly one-on-one | &#10006; |
 
-[^1]: I have been using Jira to move tickets when I was fixing bugs. I am not sure if it applies, but I have an overall idea.
+[^1]: I used Jira to move tickets when I was fixing bugs. I am not sure if it applies, but I have an overall idea.
 
 ### Week 2
 
