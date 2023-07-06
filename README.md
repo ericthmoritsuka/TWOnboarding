@@ -34,3 +34,25 @@ Assess gaps in knowledge. Identify ad-hoc lectures by knowledgeable members of t
 1. Review Site Building and Content Authoring documentation not just for learning, but also to identify gaps.
 1. Review everything under Building Applications not just for learning, but also to identify gaps. 
 1. Go through two weeks of Teach Yourself Java in 21 Days (skip GUI chapters)
+
+<br>
+
+---
+ <br>
+
+## Progress
+
+### Week 1
+
+| Activity | Progress |
+| --- | :---: |
+| Able to use git | &#10004; |
+| Has reviewed Liferay documentation style guidelines | &#10004; |
+| Has met with Rich and JR to discuss style, workflow, and team goals | &#10006; |
+| Work with Alec Shay on Echo and Front-End planning and goals | &#10006; |
+| Can move JIRA tickets assigned to him through the workflow[^1] | &#10004; |
+| Work on schedule for weekly meeting | &#10006; |
+| Schedule monthly one-on-one | &#10006; |
+
+[^1]: I have been using Jira to move tickets when I was fixing bugs. I am not sure if it applies, but I have an overall idea.
+
