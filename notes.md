@@ -13,6 +13,7 @@
   - [Which Template Changes are Propagated?](#which-template-changes-are-propagated)
   - [Enabling and Disabling Propagation](#enabling-and-disabling-propagation)
   - [Reconnecting Inherited Pages to Their Template](#reconnecting-inherited-pages-to-their-template)
+- [Coniguring Site Template Propagation](#coniguring-site-template-propagation)
 
 ---
 
@@ -50,12 +51,16 @@
 
 [^2]: A/B Testing compares the current default variation of a page with the page variant(s) to see which pages perform better for a given goal (bounce rate, clicks, etc.). This enables you to make better, data-driven decisions about your site, so you can serve users and customers faster than ever before.
 
+---
+
 ## [Adding a Site](https://learn.liferay.com/w/dxp/site-building/sites/adding-a-site)
 * Steps that teach ow to create a Site (capital S because we are refering to a Liferay-specific terminology).
 * Liferay Organizations enable distributed User management, providing a convenient way to organize and manage instance users and roles to reflect your organizational hierarchy. **Once an organization is created, you can also enable a dedicated Site for your Organization to facilitate distributed portal administration.** This feature is available for both parent and child Organizations, so you can quickly create a hierarchy of Sites with content created, administered, and tailored specifically to each group’s needs.
   > NOTE: (admonition here)
 You can only use the blank template or custom templates when creating an Organization Site. **You cannot use other default templates.**
 * Liferay User Groups are lists of users that can span multiple Organizations and Sites. You can create dedicated Sites for User Groups to add Pages to the personal Site of each group member. See User Group Sites for more information.
+
+---
 
 ## [Site Templates](https://learn.liferay.com/w/dxp/site-building/sites/site-templates)
 * Liferay provides Site Templates for designing structures and content that you can use during Site creation. Each template includes most standard Site applications for adding Pages, Stylebooks, Web Content, and more. 
@@ -64,12 +69,16 @@ You can only use the blank template or custom templates when creating an Organiz
 * Once you’ve created a Site using a template, you can make changes to the template’s Pages and automatically propagate those changes to connected Sites. See Propagating Template Changes for more information.
 > IMPORTANT: Site Templates are primarily intended for maintaining Pages across multiple Sites. **If you need to create and maintain Web Content and other assets across Sites, use Asset Libraries.** 
 
+---
+
 ## [Creating Site Templates](https://learn.liferay.com/w/dxp/site-building/sites/site-templates/creating-site-templates)
 * Teaches how to create a Site Template and talks about the options in the *New Site Template Menu*.
 * With Site Templates, you can design and configure templates for creating Sites. Each template is built using the same tools as Sites.
 * The UI for designing the template is identical with the UI for designing Sites. Just open the Site Template Menu (Site Menu) to access available applications and begin adding Style Books, Page Templates, Pages, and more.
 *  (related to previous IMPORTANT admonition. The first part is the same, but there is this additional content on this page) If automatic propagation is not necessary for your use case, you can export and import Site data to transfer it between environments.
 >  **IMPORTANT: Pages inherited from a template cannot be deleted. You also cannot directly add child Pages to them on the Site level. They can only be added or removed in the Site Template.**
+
+---
 
 ## [Propagating Template Changes](https://learn.liferay.com/w/dxp/site-building/sites/site-templates/propagating-template-changes)
 * When Site Template propagation is enabled, **you can make changes to the template’s Pages and automatically propagate those changes to connected Sites. **
@@ -91,3 +100,13 @@ You can only use the blank template or custom templates when creating an Organiz
 * (As explained above) If you make changes to a Site Page inherited from a template, it is disconnected from the template’s Page and is not automatically propagated. To reconnect the Site Page to the template, you must discard your changes to the Site Page.
 * Teaches how to discard changes to a Site Page and resync with its template.
 > WARNING: Resetting changes reverts any changes made to the Site Page directly. This can result in data loss. Proceed with caution.
+
+---
+
+## [Coniguring Site Template Propagation](https://learn.liferay.com/w/dxp/site-building/sites/site-templates/configuring-site-template-propagation)
+* By default, site template changes are propagated automatically to a connected site when a user visits the site after the template is updated. 
+* You can configure an additional manual trigger that propagates to all connected sites simultaneously. To enable manual propagation, use the Trigger Propagation setting. When enabled, clicking the *Ready for Propagation* button in the site template editor triggers propagation to all connected sites. 
+* Enabling this setting does not stop the automatic propagation of template changes that occurs when users visit connected sites.
+> IMPORTANT: Automatic propagation can be resource intensive, depending the scope of changes made to a template.
+* Teaches how to configure Site Template propagation.
+* If propagation is disabled for a Site Template, enabling propagation immediately begins propagating changes to connected Sites simultaneously. While propagation remains enabled for the template, subsequent changes are propagated to sites individually when they’re first visited by a user.
