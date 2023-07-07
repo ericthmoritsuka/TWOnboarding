@@ -1,3 +1,17 @@
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Introduction to Site Building](#introduction-to-site-building)
+  - [Creating Sites](#creating-sites)
+  - [Displaying Content](#displaying-content)
+  - [Personalizing User Experiences](#personalizing-user-experiences)
+  - [Customizing and Configuring Sites](#customizing-and-configuring-sites)
+  - [Optimizing Sites](#optimizing-sites)
+- [Adding a Site](#adding-a-site)
+- [Site Templates](#site-templates)
+- [Creating Site Templates](#creating-site-templates)
+
+---
+
 ## [Introduction to Site Building](https://learn.liferay.com/w/dxp/site-building/introduction-to-site-building)
 * Sites are a fundamental component of Liferay DXP. Essentially, a Site is a collection of pages that contains content applications that provide additional functionality.
 

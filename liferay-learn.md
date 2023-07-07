@@ -23,4 +23,4 @@
 1. [Developer Guide]()
 
 
-[^1]: Great summary on Sites, lots of useful summarized information.
+[^1]: Great summary on Sites, lots of useful, summarized information.
