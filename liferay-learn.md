@@ -8,7 +8,8 @@
      * [Creating Site Templates](https://learn.liferay.com/w/dxp/site-building/sites/site-templates/creating-site-templates)&#10004;
      * [Propragating Template Changes](https://learn.liferay.com/w/dxp/site-building/sites/site-templates/propagating-template-changes) &#10004;
      * [Configuring Site Template Propagation](https://learn.liferay.com/w/dxp/site-building/sites/site-templates/configuring-site-template-propagation) &#10004;
-     * [Exporting/Importing Site Templates]()
+     * [Exporting/Importing Site Templates](https://learn.liferay.com/w/dxp/site-building/sites/site-templates/exporting-importing-site-templates) &#10004;
+   * [Site Hierarchies](https://learn.liferay.com/w/dxp/site-building/sites/site-hierarchies)
    * [Site Membership]()
    * [Personal Sites]()
    * [Exporting/Importing Site Pages and Content]()

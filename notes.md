@@ -13,7 +13,8 @@
   - [Which Template Changes are Propagated?](#which-template-changes-are-propagated)
   - [Enabling and Disabling Propagation](#enabling-and-disabling-propagation)
   - [Reconnecting Inherited Pages to Their Template](#reconnecting-inherited-pages-to-their-template)
-- [Coniguring Site Template Propagation](#coniguring-site-template-propagation)
+- [Configuring Site Template Propagation](#configuring-site-template-propagation)
+- [Exporting/Importing Site Templates](#exportingimporting-site-templates)
 
 ---
 
@@ -103,10 +104,25 @@ You can only use the blank template or custom templates when creating an Organiz
 
 ---
 
-## [Coniguring Site Template Propagation](https://learn.liferay.com/w/dxp/site-building/sites/site-templates/configuring-site-template-propagation)
+## [Configuring Site Template Propagation](https://learn.liferay.com/w/dxp/site-building/sites/site-templates/configuring-site-template-propagation)
 * By default, site template changes are propagated automatically to a connected site when a user visits the site after the template is updated. 
 * You can configure an additional manual trigger that propagates to all connected sites simultaneously. To enable manual propagation, use the Trigger Propagation setting. When enabled, clicking the *Ready for Propagation* button in the site template editor triggers propagation to all connected sites. 
 * Enabling this setting does not stop the automatic propagation of template changes that occurs when users visit connected sites.
 > IMPORTANT: Automatic propagation can be resource intensive, depending the scope of changes made to a template.
 * Teaches how to configure Site Template propagation.
 * If propagation is disabled for a Site Template, enabling propagation immediately begins propagating changes to connected Sites simultaneously. While propagation remains enabled for the template, subsequent changes are propagated to sites individually when they’re first visited by a user.
+
+---
+## [Exporting/Importing Site Templates](https://learn.liferay.com/w/dxp/site-building/sites/site-templates/exporting-importing-site-templates)
+* Teaches how to export/import individual site templates.
+* Teaches how to Bulk Export/Import
+* With Bulk Exports, you cannot configure the Pages and content included for each template. 
+* Unlike individual exports, you can determine whether Page Templates are included in your export.
+* With Bulk Imports, you can determine whether Page Templates included in the LAR file are imported with the Site Templates.
+
+---
+
+##[Site Hierarchies](https://learn.liferay.com/w/dxp/site-building/sites/site-hierarchies)
+*  Sites can be organized hierarchically, just like Organizations, with child Sites. 
+*  Organizing Sites hierarchically lets you share content between them easily. 
+*  The difference between Sites and Organizations is that **Sites organize pages, content, application data, and Users (via site memberships)**, whereas **Organizations only group Users**.
