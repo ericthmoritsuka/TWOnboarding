@@ -15,6 +15,10 @@
   - [Reconnecting Inherited Pages to Their Template](#reconnecting-inherited-pages-to-their-template)
 - [Configuring Site Template Propagation](#configuring-site-template-propagation)
 - [Exporting/Importing Site Templates](#exportingimporting-site-templates)
+- [Site Hierarchies](#site-hierarchies)
+  - [Content Sharing Between Sites](#content-sharing-between-sites)
+  - [Site Hierarchy Roles and Permissions](#site-hierarchy-roles-and-permissions)
+  - [Navigating Site Hierarchy with the Sites Directory Application](#navigating-site-hierarchy-with-the-sites-directory-application)
 
 ---
 
@@ -122,7 +126,22 @@ You can only use the blank template or custom templates when creating an Organiz
 
 ---
 
-##[Site Hierarchies](https://learn.liferay.com/w/dxp/site-building/sites/site-hierarchies)
+## [Site Hierarchies](https://learn.liferay.com/w/dxp/site-building/sites/site-hierarchies)
 *  Sites can be organized hierarchically, just like Organizations, with child Sites. 
 *  Organizing Sites hierarchically lets you share content between them easily. 
 *  The difference between Sites and Organizations is that **Sites organize pages, content, application data, and Users (via site memberships)**, whereas **Organizations only group Users**.
+
+### [Content Sharing Between Sites](https://learn.liferay.com/w/dxp/site-building/sites/site-hierarchies#content-sharing-between-sites)
+*  Content sharing is available for Sites within the same hierarchy. 
+> You can share these content types across Sites: Web Content Structures, Web Content Templates, Document Types, Vocabularies and Categories, Widget Templates, Data Definitions (Dynamic Data Lists)
+
+### [Site Hierarchy Roles and Permissions](https://learn.liferay.com/w/dxp/site-building/sites/site-hierarchies#site-hierarchy-roles-and-permissions)
+* Each child site in the hierarchy has its own Administrator
+* The Site Administrator Role permissions don’t flow down to child Sites in the hierarchy
+* If a Site Administrator creates a child Site, he or she has the same permissions in that child Site. This is because creating a Site makes you the owner of that Site (not inheritance).
+* A Site Administrator has no default Role in any child Sites created by other Site Administrators.
+> NOTE: If you want a User to have administrative access to all Sites in a Site/child Site hierarchy, you must create a Role based on the Site Administrator Role that has the permission Manage Subsites.
+
+### [Navigating Site Hierarchy with the Sites Directory Application](https://learn.liferay.com/w/dxp/site-building/sites/site-hierarchies#navigating-site-hierarchy-with-the-sites-directory-application)
+* The Sites Directory application is a configurable app that **shows a hierarchy of Sites and child Sites. It enables Users to navigate to any of the displayed Sites.**
+* Teaches how to access Sites Directory
