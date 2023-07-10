@@ -10,7 +10,7 @@
      * [Configuring Site Template Propagation](https://learn.liferay.com/w/dxp/site-building/sites/site-templates/configuring-site-template-propagation) &#10004;
      * [Exporting/Importing Site Templates](https://learn.liferay.com/w/dxp/site-building/sites/site-templates/exporting-importing-site-templates) &#10004;
    * [Site Hierarchies](https://learn.liferay.com/w/dxp/site-building/sites/site-hierarchies)
-   * [Site Membership]()
+   * [Site Membership](https://learn.liferay.com/w/dxp/site-building/sites/site-membership)
    * [Personal Sites]()
    * [Exporting/Importing Site Pages and Content]()
    * [Default Site Applications]()
