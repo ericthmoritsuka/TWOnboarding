@@ -11,6 +11,9 @@
      * [Exporting/Importing Site Templates](https://learn.liferay.com/w/dxp/site-building/sites/site-templates/exporting-importing-site-templates) &#10004;
    * [Site Hierarchies](https://learn.liferay.com/w/dxp/site-building/sites/site-hierarchies) &#10004;
    * [Site Membership](https://learn.liferay.com/w/dxp/site-building/sites/site-membership)
+     * [Adding Members to Sites](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/adding-members-to-sites)
+     * [Inviting Members to Your Site]()
+     * [Creating Teams for Sites ]()
    * [Personal Sites]()
    * [Exporting/Importing Site Pages and Content]()
    * [Default Site Applications]()

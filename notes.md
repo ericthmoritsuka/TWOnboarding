@@ -19,6 +19,10 @@
   - [Content Sharing Between Sites](#content-sharing-between-sites)
   - [Site Hierarchy Roles and Permissions](#site-hierarchy-roles-and-permissions)
   - [Navigating Site Hierarchy with the Sites Directory Application](#navigating-site-hierarchy-with-the-sites-directory-application)
+- [Site Membership](#site-membership)
+- [Adding Members to Sites](#adding-members-to-sites)
+  - [Managing Site Membership](#managing-site-membership)
+  - [Joining Sites with the My Sites Application](#joining-sites-with-the-my-sites-application)
 
 ---
 
@@ -145,3 +149,33 @@ You can only use the blank template or custom templates when creating an Organiz
 ### [Navigating Site Hierarchy with the Sites Directory Application](https://learn.liferay.com/w/dxp/site-building/sites/site-hierarchies#navigating-site-hierarchy-with-the-sites-directory-application)
 * The Sites Directory application is a configurable app that **shows a hierarchy of Sites and child Sites. It enables Users to navigate to any of the displayed Sites.**
 * Teaches how to access Sites Directory
+
+---
+
+## [Site Membership](https://learn.liferay.com/w/dxp/site-building/sites/site-membership)
+* Being a member of a Site grants users access and abilities beyond an unauthenticated guest user. 
+* Site members have more permissions than guests for many widgets like Message Boards and Wikis that enable them to create content and collaborate on your Site.
+* Site members can be associated with Roles that grant Site privileges.
+* Site Roles are created at a global level, but **when they’re assigned they only provide permissions for the specific Site where they were assigned.**
+* Since Roles are created at a global level, **they can’t be created by Site Administrators** (since Site Administrators only have Administrator privileges for their Site). 
+* Teams let Site Administrators assign permissions to groups of Users within their Sites. 
+
+---
+
+## [Adding Members to Sites](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/adding-members-to-sites)
+* Sites are where all your content and pages are stored, and Users access and create that content.
+
+### [Managing Site Membership](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/adding-members-to-sites#managing-site-membership)
+* Administrators can manage Site members from that Site’s Site Membership page.
+* ***There is a lack of information on how to get to Memberships. At least, I had a hard time finding it, maybe it could be rewritten to make it easier to find?***
+* Teaches how to add and remove members.
+* Teaches how to bulk remove Users.
+* Teaches how to assign Site roles.
+* ***Is it really necessary to add "Follow these steps to make an existing User a member of the Site:"(Don't introduce the steps directly underneath a heading - is it ok if I write a sentence like this?)***
+* ***follow these steps: (Only use : after independent clauses)***
+* ***Joining Sites with the My Sites Application (is the definite article The appropriate in this case? Couldn't it be omitted?)***
+* ***In the title it is called My Sites Application, in the body it is called My Sites Directory application***
+
+### [Joining Sites with the My Sites Application](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/adding-members-to-sites#joining-sites-with-the-my-sites-application)
+
+*  My Sites Directory application lists the Sites a User belongs to. This application is added to User Dashboard pages by default. You can view the available open and restricted Sites by adding the My Sites application to a page and accessing the Available Sites tab. You can request access to any of the Sites you’re not a member of by selecting the Site’s Options button (Options) and clicking Join.
