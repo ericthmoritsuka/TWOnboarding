@@ -12,8 +12,8 @@
    * [Site Hierarchies](https://learn.liferay.com/w/dxp/site-building/sites/site-hierarchies) &#10004;
    * [Site Membership](https://learn.liferay.com/w/dxp/site-building/sites/site-membership)
      * [Adding Members to Sites](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/adding-members-to-sites)
-     * [Inviting Members to Your Site]()
-     * [Creating Teams for Sites ]()
+     * [Inviting Members to Your Site](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/inviting-members-to-your-site)
+     * [Creating Teams for Sites ](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/creating-teams-for-sites)
    * [Personal Sites]()
    * [Exporting/Importing Site Pages and Content]()
    * [Default Site Applications]()

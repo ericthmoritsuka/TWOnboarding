@@ -23,6 +23,7 @@
 - [Adding Members to Sites](#adding-members-to-sites)
   - [Managing Site Membership](#managing-site-membership)
   - [Joining Sites with the My Sites Application](#joining-sites-with-the-my-sites-application)
+- [Creating Teams for Sites](#creating-teams-for-sites)
 
 ---
 
@@ -173,9 +174,31 @@ You can only use the blank template or custom templates when creating an Organiz
 * Teaches how to assign Site roles.
 * ***Is it really necessary to add "Follow these steps to make an existing User a member of the Site:"(Don't introduce the steps directly underneath a heading - is it ok if I write a sentence like this?)***
 * ***follow these steps: (Only use : after independent clauses)***
-* ***Joining Sites with the My Sites Application (is the definite article The appropriate in this case? Couldn't it be omitted?)***
+* ***Joining Sites with the My Sites Application (is the definite article The appropriate in this case? Couldn't it be omitted since the possessive adjective My is also being used?)***
 * ***In the title it is called My Sites Application, in the body it is called My Sites Directory application***
 
 ### [Joining Sites with the My Sites Application](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/adding-members-to-sites#joining-sites-with-the-my-sites-application)
 
 *  My Sites Directory application lists the Sites a User belongs to. This application is added to User Dashboard pages by default. You can view the available open and restricted Sites by adding the My Sites application to a page and accessing the Available Sites tab. You can request access to any of the Sites you’re not a member of by selecting the Site’s Options button (Options) and clicking Join.
+
+---
+
+##[Invinting Members to Your Site](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/inviting-members-to-your-site)
+* Teaches how to invite members to the site.
+* ***How do I get to the widget?***
+* Maybe break the information down a little more? It looks a little dense.
+* Should the title be Inviting Members to Your site using the Invite Members widget (as it is specifically mentioning just this method?)
+
+---
+
+## [Creating Teams for Sites](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/creating-teams-for-sites)
+* If you have an ad hoc group of Users who perform the same set of tasks in a Site (moderating a site’s Wiki content, managing Message Boards threads, writing blogs, editing a specific page in the Site, etc.), you can organize them into Site Teams, and then assign the team permissions for various Site-specific functions.
+* Site Teams are the preferred method for administering permissions within a single Site. 
+* The permissions assigned to a Site Team **only apply to that Site.**
+> NOTE: To create and apply permissions for a group of Users to use across multiple Sites or Organizations in your Liferay Portal instance, **consider aggregating the Users into a User Group and assigning the User Group permissions via Roles.**
+* ***The steps below cover these topics: Adding a Team to a Site, Adding Members to a Team, Managing Team Permissions, Managing Team App Permissions (Is this necessary? could it be a paragraph, could I omit it?)***
+* Teaches how to do the topics mentioned above.
+* The path to get to Teams is better here than in [Adding Members to Site](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/adding-members-to-sites#managing-site-membership).
+> NOTE: You can configure other Site membership groupings, such as Users, Organizations, and User Groups in the Site Memberships app, which is also in the Members tab.
+> NOTE: Setting permissions for the Team assigns those permissions to all the Team’s members. Only Administrators who can edit/manage the Team can manage Team permissions.
+> You can also manage Team permissions from an app (Message Boards, for example). 
