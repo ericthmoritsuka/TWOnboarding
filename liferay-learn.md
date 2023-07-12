@@ -10,11 +10,11 @@
      * [Configuring Site Template Propagation](https://learn.liferay.com/w/dxp/site-building/sites/site-templates/configuring-site-template-propagation) &#10004;
      * [Exporting/Importing Site Templates](https://learn.liferay.com/w/dxp/site-building/sites/site-templates/exporting-importing-site-templates) &#10004;
    * [Site Hierarchies](https://learn.liferay.com/w/dxp/site-building/sites/site-hierarchies) &#10004;
-   * [Site Membership](https://learn.liferay.com/w/dxp/site-building/sites/site-membership)
-     * [Adding Members to Sites](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/adding-members-to-sites)
-     * [Inviting Members to Your Site](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/inviting-members-to-your-site)
-     * [Creating Teams for Sites ](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/creating-teams-for-sites)
-   * [Personal Sites]()
+   * [Site Membership](https://learn.liferay.com/w/dxp/site-building/sites/site-membership) &#10004;
+     * [Adding Members to Sites](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/adding-members-to-sites) &#10004;
+     * [Inviting Members to Your Site](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/inviting-members-to-your-site) &#10004;
+     * [Creating Teams for Sites ](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/creating-teams-for-sites) &#10004;
+   * [Personal Sites](https://learn.liferay.com/w/dxp/site-building/sites/personal-sites) &#10004;
    * [Exporting/Importing Site Pages and Content]()
    * [Default Site Applications]()
 1. [Creating Pages]()

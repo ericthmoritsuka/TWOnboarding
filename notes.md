@@ -24,6 +24,10 @@
   - [Managing Site Membership](#managing-site-membership)
   - [Joining Sites with the My Sites Application](#joining-sites-with-the-my-sites-application)
 - [Creating Teams for Sites](#creating-teams-for-sites)
+- [Personal Sites](#personal-sites)
+  - [Profile Pages and Dashboard Pages](#profile-pages-and-dashboard-pages)
+  - [Personal Site Permissions and Roles](#personal-site-permissions-and-roles)
+  - [Customize Personal Sites with Portal Properties](#customize-personal-sites-with-portal-properties)
 
 ---
 
@@ -202,3 +206,29 @@ You can only use the blank template or custom templates when creating an Organiz
 > NOTE: You can configure other Site membership groupings, such as Users, Organizations, and User Groups in the Site Memberships app, which is also in the Members tab.
 > NOTE: Setting permissions for the Team assigns those permissions to all the Team’s members. Only Administrators who can edit/manage the Team can manage Team permissions.
 > You can also manage Team permissions from an app (Message Boards, for example). 
+
+---
+
+## [Personal Sites](https://learn.liferay.com/w/dxp/site-building/sites/personal-sites)
+* By default, Liferay generates a personal site for every user. Each site includes two page sets: My Profile (public) and My Dashboard (private).
+* You can disable or customize personal sites using portal properties
+> IMPORTANT: For Liferay 7.4 U22+ and GA22+, new Liferay installations include a release feature flag **that disables the creation of Private Pages, including Dashboard Pages**. To manually create custom Dashboard Pages for a personal Site, Private Pages must be enabled for your Liferay system.
+* ***should't the first topic be updated using the important admonition?***
+> TIP: With User Group Sites, you can dynamically add Pages to the personal Sites of all group members. See User Group Sites for more information.
+
+### [Profile Pages and Dashboard Pages](https://learn.liferay.com/w/dxp/site-building/sites/personal-sites#profile-pages-and-dashboard-pages)
+* In Profile Pages, Users can share content (e.g., blog, activities) publicly. By default, each Profile Page displays the User’s basic information and provides a download link to the User’s vCard (virtual business card).
+* In Dashboard Pages, user can access private files, create personalized RSS feeds, manage Site memberships, and more. By default, each Dashboard Page includes the My Sites widget.
+
+### [Personal Site Permissions and Roles](https://learn.liferay.com/w/dxp/site-building/sites/personal-sites#personal-site-permissions-and-roles)
+* Administrators can customize the modifiable portions of personal Sites through Liferay Portal’s permissions system by removing permissions from Roles (disallow all Users from modifying something by removing the relevant permission from the User Role).
+* Users can administer their personal sites and modify the pages and applications when they are members of the Power User Role.
+
+### [Customize Personal Sites with Portal Properties](https://learn.liferay.com/w/dxp/site-building/sites/personal-sites#customizing-personal-sites-with-portal-properties)
+* There are several portal properties you can add to portal-ext.properties to customize the default pages of personal Sites. You can customize the names of the pages, the applications that appear on the pages, the themes and layout templates of pages, and more.
+* There is a table with some functionalities and respective properties we can add to `portal.properties`
+* The Public and Private Page Sets of personal Sites are handled separately. You can leave one Page Set enabled while disabling the other.
+* If you initially had user personal Sites enabled for your instance but then disabled them, existing personal Sites remain on your instance until the next time users sign in, at which point they’re removed.
+
+---
+
