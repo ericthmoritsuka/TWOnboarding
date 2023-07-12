@@ -23,11 +23,15 @@
 - [Adding Members to Sites](#adding-members-to-sites)
   - [Managing Site Membership](#managing-site-membership)
   - [Joining Sites with the My Sites Application](#joining-sites-with-the-my-sites-application)
+- [Invinting Members to Your Site](#invinting-members-to-your-site)
 - [Creating Teams for Sites](#creating-teams-for-sites)
 - [Personal Sites](#personal-sites)
   - [Profile Pages and Dashboard Pages](#profile-pages-and-dashboard-pages)
   - [Personal Site Permissions and Roles](#personal-site-permissions-and-roles)
   - [Customize Personal Sites with Portal Properties](#customize-personal-sites-with-portal-properties)
+- [Exporting/Importing Site Pages and Content](#exportingimporting-site-pages-and-content)
+  - [Site LAR Properties and Requirements](#site-lar-properties-and-requirements)
+  - [Exporting Site Pages and Content](#exporting-site-pages-and-content)
 
 ---
 
@@ -187,7 +191,7 @@ You can only use the blank template or custom templates when creating an Organiz
 
 ---
 
-##[Invinting Members to Your Site](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/inviting-members-to-your-site)
+## [Invinting Members to Your Site](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/inviting-members-to-your-site)
 * Teaches how to invite members to the site.
 * ***How do I get to the widget?***
 * Maybe break the information down a little more? It looks a little dense.
@@ -232,3 +236,14 @@ You can only use the blank template or custom templates when creating an Organiz
 
 ---
 
+## [Exporting/Importing Site Pages and Content](https://learn.liferay.com/w/dxp/site-building/sites/exporting-importing-site-pages-and-content)
+* Liferay Sites include the Export/Import applications for extracting and transferring Site data as Liferay Archive (LAR) files. You can access these tools at the Site level. (what is the site level?)
+> NOTE: You can also access export and import functions for individual Site applications and Page widgets.
+
+### [Site LAR Properties and Requirements](https://learn.liferay.com/w/dxp/site-building/sites/exporting-importing-site-pages-and-content#site-lar-properties-and-requirements)
+* LARs are version dependent. **They can be imported into a Site on another Liferay server, as long as the Liferay versions on each server are the same.**
+* Some naming conflicts are handled automatically. For example, **if the LAR you’re importing and the Site both have a page with the same friendly URL, a number is appended to the friendly URL and incremented until the conflict no longer occurs.** The same is true for category names.
+* **You can use LARs to restore a Site, but you must delete your Site entirely and then create a new Site with the same name to import the LAR into.** This avoids potential data conflicts between content that exists both in the LAR and in the Site.
+> IMPORTANT: Periodically exporting LARs is not a backup solution; it should only be used to migrate data between two environments. Please refer to the Backing up a Liferay Portal Installation to learn about backing up your Liferay installation.
+
+### [Exporting Site Pages and Content](https://learn.liferay.com/w/dxp/site-building/sites/exporting-importing-site-pages-and-content#exporting-site-pages-and-content)
