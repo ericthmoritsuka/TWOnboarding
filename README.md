@@ -48,10 +48,10 @@ Assess gaps in knowledge. Identify ad-hoc lectures by knowledgeable members of t
 | --- | :---: |
 | Able to use git | &#10004; |
 | Has reviewed Liferay documentation style guidelines | &#10004; |
-| Has met with Rich and JR to discuss style, workflow, and team goals | &#10006; |
+| Has met with Rich and JR to discuss style, workflow, and team goals | &#10004; |
 | Work with Alec Shay on Echo and Front-End planning and goals | &#10006; |
 | Can move JIRA tickets assigned to him through the workflow[^1] | &#10004; |
-| Work on schedule for weekly meeting | &#10006; |
+| Work on schedule for weekly meeting | &#10004; |
 | Schedule monthly one-on-one | &#10006; |
 
 [^1]: I used Jira to move tickets when I was fixing bugs. I am not sure if it applies, but I have an overall idea.
