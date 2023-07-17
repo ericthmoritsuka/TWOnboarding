@@ -15,7 +15,7 @@
      * [Inviting Members to Your Site](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/inviting-members-to-your-site) &#10004;
      * [Creating Teams for Sites ](https://learn.liferay.com/w/dxp/site-building/sites/site-membership/creating-teams-for-sites) &#10004;
    * [Personal Sites](https://learn.liferay.com/w/dxp/site-building/sites/personal-sites) &#10004;
-   * [Exporting/Importing Site Pages and Content](https://learn.liferay.com/w/dxp/site-building/sites/exporting-importing-site-pages-and-content)
+   * [Exporting/Importing Site Pages and Content](https://learn.liferay.com/w/dxp/site-building/sites/exporting-importing-site-pages-and-content) &#10004;
    * [Default Site Applications]()
 1. [Creating Pages]()
 1. [Displaying Content]()
